@@ -244,7 +244,7 @@
                 </span>
                 <h5>
                   <strong>
-                    <a href="" class="dark-grey-text"><?php the_title();?>
+                    <a href="<?php the_permalink();?>" class="dark-grey-text"><?php the_title();?>
                       <span class="badge badge-pill danger-color">NEW</span>
                     </a>
                   </strong>
